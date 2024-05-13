@@ -1,6 +1,6 @@
 # My VS Code Extension
 
-This is a VS Code extension that provides additional functionality to enhance your coding experience.
+This is a VS Code extension that provides additional functionality to enhance your coding experience, including code suggestions powered by Azure OpenAI.
 
 ## Installation
 
@@ -17,6 +17,7 @@ To install the extension, follow these steps:
 - Feature 1: Describe the first feature of your extension.
 - Feature 2: Describe the second feature of your extension.
 - Feature 3: Describe the third feature of your extension.
+- **New! Azure OpenAI Code Suggestions**: Get code suggestions directly in your IDE, similar to GitHub Copilot, powered by Azure OpenAI.
 
 ## Usage
 
@@ -24,11 +25,17 @@ To use the extension, follow these steps:
 
 1. Open a file in Visual Studio Code.
 2. Use the extension commands to perform specific actions.
-3. Enjoy the enhanced coding experience!
+3. To activate Azure OpenAI code suggestions, use the command `Fetch Code Suggestions` from the command palette (`Ctrl+Shift+P`).
+4. Enjoy the enhanced coding experience with real-time code suggestions!
 
 ## Configuration
 
-The extension can be configured by modifying the following files:
+To use the Azure OpenAI code suggestions feature, you need to configure your Azure OpenAI credentials. Follow these steps:
+
+1. Obtain your Azure OpenAI API key and endpoint from the Azure portal.
+2. Add your API key and endpoint to the extension settings in Visual Studio Code.
+
+The extension can also be configured by modifying the following files:
 
 - `.vscode/launch.json`: This file is used to configure the launch configurations for debugging the VS Code extension.
 - `.vscode/tasks.json`: This file is used to configure tasks that can be run from the VS Code command palette.
