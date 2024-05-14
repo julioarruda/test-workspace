@@ -26,7 +26,12 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-chatbot": "node ./src/chatbot/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-nlp": "^4.22.0"
   },
   "devDependencies": {
     "@types/node": "^16.7.10",
